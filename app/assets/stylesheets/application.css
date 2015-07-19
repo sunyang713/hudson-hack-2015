@@ -22,7 +22,8 @@
 body { 
     padding-top: 60px;
     background: url(homePageBackground.jpg) no-repeat center center fixed;
-    color: red;
+    color: white;
+    font: proxima-nova;
 }
 		
 table, td, th { 

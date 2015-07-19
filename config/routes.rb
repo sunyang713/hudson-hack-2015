@@ -7,10 +7,6 @@ Rails.application.routes.draw do
 
   get 'pages/sponsors'
 
-  get 'pages/collaborations'
-
-  get 'pages/colloborations'
-
   get 'pages/communities'
 
   get 'pages/info'
