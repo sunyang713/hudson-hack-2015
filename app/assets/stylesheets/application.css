@@ -14,8 +14,20 @@
  *= require_self
  */
 
-body { padding-top: 60px; }
+ *  {
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+body { 
+		padding-top: 60px; 
+		background-image: url("homePageBackground.jpg"); 
+		background-size: cover; 
+		color: red;    
+		}
+
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+
 
