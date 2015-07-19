@@ -1,4 +1,4 @@
 class PagesController < ApplicationController
-  def communities
+  def donation
   end
 end

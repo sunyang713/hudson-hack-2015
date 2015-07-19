@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class PagesControllerTest < ActionController::TestCase
-  test "should get communities" do
-    get :communities
+  test "should get donation" do
+    get :donation
     assert_response :success
   end
 

@@ -35,6 +35,8 @@ table, td, th {
 	border: none; 
 	}
 
+
+
 th { 
 	border-bottom: 1px solid #DDD; 
 	}
@@ -42,5 +44,39 @@ th {
 	.navbar { min-height: 38px; background-color: red; }
 
 	.navbar a.brand { font-size: 18px; } .navbar a.brand:hover { color: #fff; background-color: transparent; text-decoration: none; }
+
+
+	button {
+		background-color: black;
+		width: 200px;
+		height: 70px;
+		position: relative;
+		left: 340px;
+		top: 400px;
+		margin-right: 30px;
+		border-radius: 20px;
+		font-size: 30px;
+		opacity: 0.4;
+		color: white;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
