@@ -9,17 +9,30 @@
 }
 
 .button {
-		background-color: black;
-		width: 200px;
-		height: 70px;
-		position: relative;
-		margin-right: 30px;
-		border-radius: 20px;
-		font-size: 30px;
-		opacity: 0.6;
-		color: white;
-	}
+    background-color: black;
+    width: 200px;
+    height: 70px;
+    position: relative;
+    margin-right: 30px;
+    border-radius: 20px;
+    font-size: 30px;
+    opacity: 0.6;
+    color: white;
+}
 
-	.button:focus {
+.center-button {
+  left: 37%;
+  background-color: black;
+  width: 200px;
+  height: 70px;
+  position: relative;
+  margin-right: 30px;
+  border-radius: 20px;
+  font-size: 30px;
+  opacity: 0.6;
+  color: white;
+}
+
+.button:focus {
   outline: none;
 }

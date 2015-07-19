@@ -22,8 +22,8 @@
 body { 
     padding-top: 60px;
     background: url(homePageBackground.jpg) no-repeat center center fixed;
-    color: white;
-    font: proxima-nova;
+    color: black;
+    text-shadow: #2E2F30;
 }
 		
 table, td, th { 
@@ -42,12 +42,35 @@ th {
 	.navbar a.brand { font-size: 18px; } .navbar a.brand:hover { color: #fff; background-color: transparent; text-decoration: none; }
 
 
-	
+.row {
+    float: left;
+    width :30%;
+}
+
+.content .col-md-4{
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+
+}
 
 
+h1 {
+    color: white;
+}
 
+.content {
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+}
 
-
+.inner-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right:40px;
+    min-height: 400px;
+}
 
 
 

@@ -65,9 +65,17 @@
       <% if alert %>
           <p class="alert alert-danger"><%= alert %></p>
       <% end %>
-
-      <%= yield %>
-
+          <% if user_signed_in? %>
+              <div class="special">
+                <div class="content">
+                  <div class="inner-content">
+              <%= yield %>
+              </div>
+                </div>
+              </div>
+          <% else %>
+              <%= yield %>
+          <% end %>
     </div>
 
 
