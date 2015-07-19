@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'pages/donation'
+
+  get 'pages/contacts'
+
+  get 'pages/events'
+
+  get 'pages/sponsors'
+
+  get 'pages/communities'
+
+  get 'pages/info'
+
   devise_for :users
   resources :comments
   resources :comments
