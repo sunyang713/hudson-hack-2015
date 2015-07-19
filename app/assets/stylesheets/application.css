@@ -20,12 +20,10 @@
  }
 
 body { 
-		padding-top: 60px; 
-		background-image: url("homePageBackground.jpg"); 
-		background-size: cover; 
-		background-repeat:no-repeat;
-		color: red;    
-		}
+    padding-top: 60px;
+    background: url(homePageBackground.jpg) no-repeat center center fixed;
+    color: red;
+}
 		
 table, td, th { 
 	vertical-align: middle; 
