@@ -23,7 +23,7 @@ body {
 		padding-top: 60px; 
 		background-image: url("homePageBackground.jpg"); 
 		background-size: cover; 
-		background-repeat: none;
+		background-repeat:no-repeat;
 		color: red;    
 		}
 
@@ -38,5 +38,9 @@ table, td, th {
 th { 
 	border-bottom: 1px solid #DDD; 
 	}
+
+	.navbar { min-height: 38px; background-color: red; }
+
+	.navbar a.brand { font-size: 18px; } .navbar a.brand:hover { color: #fff; background-color: transparent; text-decoration: none; }
 
 
