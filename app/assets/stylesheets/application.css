@@ -23,11 +23,45 @@ body {
 		padding-top: 60px; 
 		background-image: url("homePageBackground.jpg"); 
 		background-size: cover; 
+		background-repeat:no-repeat;
 		color: red;    
 		}
+		
+table, td, th { 
+	vertical-align: middle; 
+	border: none; 
+	}
 
-footer { margin-top: 100px; }
-table, td, th { vertical-align: middle; border: none; }
-th { border-bottom: 1px solid #DDD; }
+
+
+th { 
+	border-bottom: 1px solid #DDD; 
+	}
+
+	.navbar { min-height: 38px; background-color: red; }
+
+	.navbar a.brand { font-size: 18px; } .navbar a.brand:hover { color: #fff; background-color: transparent; text-decoration: none; }
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
